@@ -8,9 +8,9 @@ public class Tools {
             for (int i = 0; i < values.length; i++) {
                 metin += values[i];
             }
-        }catch (NullPointerException ex){
+        }catch (NullPointerException | ArrayIndexOutOfBoundsException ex){
             System.err.println(ex.getMessage());
-        }catch (Exception ex){
+        } catch (Exception ex){
             System.err.println(ex.getMessage());
         }
     return metin;
@@ -23,9 +23,9 @@ public class Tools {
             for (int i = 0; i < values.length; i++) {
                 str53 += values[i];
             }
-        }catch (NullPointerException ex){
+        }catch (NullPointerException | ArrayIndexOutOfBoundsException ex){
             System.err.println(ex.getMessage());
-        }catch (Exception ex){
+        } catch (Exception ex){
             System.err.println(ex.getMessage());
         }
         return str53;
@@ -43,4 +43,5 @@ public class Tools {
         }
         return str;
     }
+
 }

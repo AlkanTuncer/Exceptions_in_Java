@@ -6,7 +6,7 @@ Keywords
     5. throws
 
 
-
+  *** CHECK BUILD SIRASINDA - COMPILE TIME DA / UNCHECKED RUN TIME DA BELLİ OLUR ***
 
 
 How to use try-catch clause?
@@ -24,4 +24,3 @@ How to use try-catch clause?
     }
 
 2. The try-with-resources Statement
-    try (File )
