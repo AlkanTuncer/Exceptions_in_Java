@@ -1,12 +1,12 @@
 Keywords
     1. try
     2. catch
-    3. finally
+    3. finally  - Kısıtlı kaynakları try/catch blogu sonunda kapatmak ıcın yazılır.
     4. throw
     5. throws
 
 
-
+  *** CHECK BUILD SIRASINDA - COMPILE TIME DA / UNCHECKED RUN TIME DA BELLİ OLUR ***
 
 
 How to use try-catch clause?
@@ -24,4 +24,3 @@ How to use try-catch clause?
     }
 
 2. The try-with-resources Statement
-    try (File )
