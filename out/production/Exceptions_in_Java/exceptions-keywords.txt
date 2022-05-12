@@ -24,3 +24,10 @@ How to use try-catch clause?
     }
 
 2. The try-with-resources Statement
+
+    try(FileReader fr = new FileReader("deneme.txt"){        --> Bu kullanımda acılan dosyalar eger Closeable ise iş bitince kapanır.
+
+    }
+    catch(Exception e) {
+
+    }
