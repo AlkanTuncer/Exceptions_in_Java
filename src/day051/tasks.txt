@@ -1,0 +1,20 @@
+TASKs
+
+Task 1 : Verilen bir String dizisinin içeriğini ekrana bastıran metodu yazınız.
+    - Method : void showContent(String[] values)
+    - Metot içerisinde iki adet uncheck Exception kullanılacaktır.
+    - NullPointerException ve ArrayIndexOutOfBoundsException
+    - try - catch - catch
+
+
+Task 2 : Değeri örneğin "5*" olarak verilen bir parametre vardır.Bu veri kullanılarak ekrana yanyana 5 adet yıldız
+(aralarında boşluk olacak) * * * * * basılacaktır.
+    - Aşağıda ismi verilen metodu yazınız.
+    - Yapılacaklar :
+        - Metin içindeki sayı alınıp int tipine dönüştürülecektir. Dönüşüm sırasında hata oluşabilir.
+        - Veri null gelebilir veya empty olabilir.
+
+    Method : void printSymbol(String value)
+    printSymbol("5*")  output * * * * *
+    printSymbol("4x")  output x x x x
+    printSymbol("3-")  output - - -
